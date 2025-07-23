@@ -1,6 +1,7 @@
+
 # Library Management System (C)
 
-A complete **Library Management System** built with C language, providing both **staff** and **user** interfaces.  
+A complete **Library Management System** built in C language, providing both **staff** and **user** interfaces.  
 The system manages books, users, lending operations, and keeps detailed return logs using file handling.
 
 ---
@@ -26,17 +27,6 @@ The system manages books, users, lending operations, and keeps detailed return l
 - Basic authentication system for staff and users
 
 ---
-### LOGIN MENU
-![Login Panel](screenshots/1.png)
---------------------
-
-### STAFF PANEL
-![Staff Panel](screenshots/2.png)
---------------------
-
-### USER PANEL
-![User Panel](screenshots/3.png)
--------------------
 
 ## File Structure
 - **kitap.txt** → Stores available books  
@@ -47,10 +37,38 @@ The system manages books, users, lending operations, and keeps detailed return l
 
 ---
 
+## Screenshots
+
+### Login Panel
+![Login Panel](screenshots/1.png)
+
+### User Panel
+![User Panel](screenshots/3.png)
+#### Borrow a Book
+![Borrow Book](screenshots/4.png)
+
+#### Return a Book
+![Return Book](screenshots/8.png)
+
+### Staff Panel
+#### Add / Remove Books
+![Staff Panel](screenshots/2.png)
+
+#### Book List
+![Book List](screenshots/5.png)
+
+#### Borrowed Books (All Users)
+![Borrowed Books](screenshots/6.png)
+
+#### Return Logs
+![Return Logs](screenshots/7.png)
+
+---
+
 ## Usage
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/YourUsername/library-c.git
+   git clone https://github.com/furkanaktrk/library-c.git
    cd library-c
 2.Compile the project:
   gcc main.c -o library
