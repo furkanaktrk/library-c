@@ -70,8 +70,8 @@ The system manages books, users, lending operations, and keeps detailed return l
    ```bash
    git clone https://github.com/furkanaktrk/library-c.git
    cd library-c
-2. Compile the project:
-  gcc main.c -o library
+2. **Compile the project:**
+   gcc main.c -o library
   
-3. Run:
-./library
+3. **Run:**
+   ./library
